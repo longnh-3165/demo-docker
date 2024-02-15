@@ -27,6 +27,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_02_06_081238) do
 
   create_table "films", force: :cascade do |t|
     t.string "name"
+    t.string "avatar"
     t.integer "category_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
